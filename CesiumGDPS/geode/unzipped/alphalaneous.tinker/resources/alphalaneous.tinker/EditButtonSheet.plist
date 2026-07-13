@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>alphalaneous.tinker/center-camera.png</key>
+		<dict>
+			<key>spriteOffset</key>
+			<string>{0,-0}</string>
+			<key>spriteSize</key>
+			<string>{42,36}</string>
+			<key>spriteSourceSize</key>
+			<string>{42,36}</string>
+			<key>textureRect</key>
+			<string>{{0,0},{42,36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>alphalaneous.tinker/center-object.png</key>
+		<dict>
+			<key>spriteOffset</key>
+			<string>{0,-0}</string>
+			<key>spriteSize</key>
+			<string>{42,36}</string>
+			<key>spriteSourceSize</key>
+			<string>{42,36}</string>
+			<key>textureRect</key>
+			<string>{{0,38},{42,36}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>alphalaneous.tinker/image-btn.png</key>
+		<dict>
+			<key>spriteOffset</key>
+			<string>{0,-0.5}</string>
+			<key>spriteSize</key>
+			<string>{32,33}</string>
+			<key>spriteSourceSize</key>
+			<string>{32,34}</string>
+			<key>textureRect</key>
+			<string>{{0,76},{32,33}}</string>
+			<key>textureRotated</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>3</integer>
+		<key>realTextureFileName</key>
+		<string>alphalaneous.tinker/EditButtonSheet.png</string>
+		<key>size</key>
+		<string>{42,108}</string>
+		<key>textureFileName</key>
+		<string>alphalaneous.tinker/EditButtonSheet.png</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"version": "v1.0.20",
+	"id": "alk.better-touch-prio",
+	"name": "Better Touch Prio",
+	"developer": "alk",
+	"description": "Removes the need for touch priority by using z-index for touch.",
+	"links": {
+		"source": "https://github.com/altalk23/FuckTouchPrio"
+	},
+	"tags": [ "universal", "enhancement" ],
+	"settings": {
+		"enable-debug-logs": {
+			"type": "bool",
+			"name": "Enable Debug Logs",
+			"description": "Enables debug logs for the mod.",
+			"default": false
+		}
+	}
+}

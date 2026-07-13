@@ -1,0 +1,25 @@
+{
+  "geode": "5.0.0",
+  "gd": {
+    "win": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081",
+    "android": "2.2081"
+  },
+  "version": "v1.0.1",
+  "id": "zsa.percentage-toggle",
+  "name": "Percentage Toggle",
+  "developer": "ZSA",
+  "description": "Force 2.1 percentage calculation",
+  "settings": {
+    "force-enable": {
+      "name": "Force enable 2.1 percentage",
+      "description": "Enables 2.1 percentage calculation game-wide",
+      "type": "bool",
+      "default": false
+    }
+  },
+  "dependencies": {
+    "geode.node-ids": ">=1.17.0"
+  }
+}

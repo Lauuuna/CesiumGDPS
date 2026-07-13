@@ -1,0 +1,44 @@
+{
+	"geode": "5.5.3",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "hjfod.backups",
+	"name": "Backups",
+	"version": "2.1.1",
+	"developer": "HJfod",
+	"description": "Never lose your progress again!",
+	"resources": {
+		"spritesheets": {
+			"BackupSheet": ["resources/*.png"]
+		}
+	},
+	"settings": {
+		"auto-local-backup-rate": {
+			"type": "string",
+			"default": "Daily",
+			"one-of": ["Every Startup", "Daily", "Every Other Day", "Every Three Days", "Weekly", "Never"],
+			"name": "Auto Backup Rate",
+			"description": "How often a <cp>local backup</c> should be made. Only checked when the game is open"
+		},
+		"auto-backup-cleanup-limit": {
+			"type": "int",
+			"default": 5,
+			"min": 1,
+			"max": 15,
+			"name": "Auto Backup Limit",
+			"description": "When creating automatic backups, if there are more than this amount of backups, the oldest automated backup will be deleted. <cy>Does not affect manually created backups, and automatic backups can be marked as non-deletable.<c/>"
+		},
+		"backup-directory": {
+			"type": "folder",
+			"name": "Backup Save Directory",
+			"description": "The directory where backups are saved. Changing this will move all of the backups.",
+			"default": "{gd_save_dir}/geode-backups",
+			"platforms": ["win", "mac"]
+		}
+	},
+	"tags": ["offline", "universal"]
+}

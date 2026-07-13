@@ -1,0 +1,64 @@
+# 1.2.4
+- Fix duration line color
+
+# 1.2.3
+- Fix additive blending
+- Fix audio line inconsistency from vanilla
+
+# 1.2.2
+- Fix playtest ground lines not showing when playtest is paused
+- Fix vanilla bug where playtest ground lines are affected by editor zoom when paused
+
+# 1.2.1
+- Invert blending fixes
+- Fix culling not updating when camera zooms during playtest
+
+# 1.2.0
+- Add invert blending
+
+# 1.1.7
+- Fix improperly restoring blending state 2
+
+# 1.1.6
+- Fix improperly restoring blending state
+
+# 1.1.5
+- Fix missing center lines
+- Fix extra lines at end of limited bounds
+
+# 1.1.4
+- Move out of beta
+
+# 1.1.4-beta.2
+- Geode Alpha 2 support
+- Fix ordering
+- Fix selection box width
+
+# 1.1.4-beta.1
+- 2.2081 Support
+- Performance Improvements
+
+# 1.1.3
+- Hide Position Lines when BetterEdit has them toggled
+- Fixed a bug where sometimes the ground line for certain gamemodes and dual wouldn't show
+- Fix a vanilla bug where duration lines broke when the object was moved and snapped
+- Fix a vanilla bug where ground lines showed even in free fly mode
+
+# 1.1.2
+- Minor fixes from hiimjasmine00
+
+# 1.1.1
+- Fixed a culling bug
+- Fixed a bug where the audio line did not respect timewarp preview
+
+# 1.1.0
+- Add line widths to the API
+- Add x position reference for BPM Triggers
+- Don't automatically add the ground offset in Grid::draw 
+    - Makes more sense when setting bounds now
+
+# 1.0.1
+- Fixed a bug with duration line updating
+
+# 1.0.0
+- Initial Release.

@@ -1,0 +1,68 @@
+# Changelog
+
+## v1.0.20
+ * Include second layer that can contain controls when you have shaders above BG but not including it
+
+## v1.0.19
+ * Rework EditorUI touch to instead be the dispatcher of delegates on the object layer instead of a separate node.
+
+## v1.0.18
+ * Actually fix editor touch breaking when shaders are active
+
+## v1.0.17
+ * Fix Editor touch breaking when shaders are active
+
+## v1.0.16
+ * Fix leak when touch is registered more than once on a node
+ * Fix nodes with invalid roots still being checked
+
+## v1.0.15
+ * Disable leak detection
+
+## v1.0.14
+ * Add Mega Hack Mobile scroll layer to the known stealer list
+ * Add "alk.better-touch-prio/steals-touch" as a user flag for marking as touch stealer
+
+## v1.0.13
+ * Remove the nested false positives from leak detection
+
+## v1.0.12
+ * Add leak detection to between-scene leaked prio targets
+
+## v1.0.11
+ * Add explicit leaked node detection to handler logic
+ * Add stealing logic of ScrollLayer to the list (I should figure out a way to generalize this)
+
+## v1.0.10
+ * Replace swallowing logic with stealing logic, which only affects non GD scroll layers 
+
+## v1.0.9
+ * Fix ordering for nodes in notification node instead
+
+## v1.0.8 
+ * Forward object layer touches in editor from inside editor ui using a custom forwarder class
+
+## v1.0.7
+ * Fix platformer arrows not appearing on mobile
+
+## v1.0.6
+ * Geode v5 beta support
+ * Realisation that the last version should've been a beta
+
+## v1.0.5
+ * Geode v5 alpha support
+
+## v1.0.4
+ * Fix a crash on Android32
+
+## v1.0.3
+ * Fix an issue that made it so you couldn't use the mouse to jump
+
+## v1.0.2
+ * Fix issues with mods that add extra buttons in the gameplay area of the editor
+
+## v1.0.1
+ * Make debug logs optional
+
+## v1.0.0
+ * Initial release
