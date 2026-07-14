@@ -2,6 +2,7 @@
   "version": "0.0.1",
   "baseUrl": "https://lauuuna.github.io/CesiumGDPS/",
   "files": {
+    "67.txt": "49d180ecf56132819571bf39d9b7b342522a2ac6d23c1418d3338251bfe469c8",
     "CesiumGDPS.exe": "fc5a16c292278bc2e8e078fb1d5023c2bd658322dd72712767ea70c2dd9ec6d0",
     "fmod.dll": "223f0e3fd8af19dbab92b4cef1a77580aef3d0a510b47a76561833e31348b720",
     "geode/mods/alk.better-touch-prio.geode": "4c24ab148f332aa40e2a69fcb9875018e60ba0308a838d081ed375d83354c5e0",
